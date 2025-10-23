@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(137deg, rgba(0, 0, 0, 1) 15%, rgba(93, 33, 117, 1) 54%, rgba(191, 111, 160, 1) 68%);
+    background-attachment: fixed;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.pp_discord{
+    padding: 1px;
+    text-align:center;
+}
+
+#pp_dc{
+    border: 1.5px solid black;
+    border-radius: 50%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 25px 1px #DA4DE3;
+}
+
+.titre{
+    text-align: center;
+}
+
+#titre{
+    text-align: center;
+    border: 1.4px solid black;
+    border-radius: 6px;
+    display: inline-flex;
+    background-color: #96359C;
+    margin-top: 4%;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 25px 1px #DA4DE3;
+    
+}
+
+.paypal, .discord{
+    text-align: center;
+}
+
+#btn_pl, #btn_dc{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    background:#96359C;
+    border: 1.4px solid black;
+    border-radius: 2rem;
+
+    font-size: 25px;
+
+    width: 500px;
+    height: 65px;
+
+    margin-top: 60px;
+    padding: 11px;
+
+    transition: 0.3s ease-in-out;
+}
+
+#btn_pl:hover, #btn_dc:hover{
+    transform: scale(110%);
+    -webkit-box-shadow: 0px 0px 25px 1px #DA4DE3; 
+    box-shadow: 0px 0px 25px 1px #DA4DE3;
+}
+
